@@ -29,13 +29,8 @@ SETTINGS_TEMPLATES_DIR  = BASE_DIR / 'settings/templates'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
-<<<<<<< HEAD
 from decouple import config
 SECRET_KEY = config("SECRET_KEY") # this is to replace the secret key you cut away before
-=======
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-8t1p=wyd3+c2bv)b3ngk3((76)+g#tu%9g$9gsl2f(^a*6yik8'
->>>>>>> 13563983b8d528632e294ba9c544884c3bceeb4b
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
